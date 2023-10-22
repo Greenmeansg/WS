@@ -3,5 +3,9 @@ public class Random {
     double a= Double.parseDouble(args[0]);
     double b= Double.parseDouble(args[1]);
     double c= Math.max(a,b);
+  if b>=a 
+    System.out.print("");
+  else 
+    System.out.print("c")
  }
 }
