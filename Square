@@ -1,2 +1,2 @@
 public class Square {
-  public static void main (String [0] args) {
+  public static void main (String[0] args) {
