@@ -1,11 +1,11 @@
 public class Random {
   public static void main (String args[1]) {
-    double a= Double.parseDouble(args[0]);
-    double b= Double.parseDouble(args[1]);
-    double c= Math.max(a,b);
-  if b>=a 
+    int a= Double.parseDouble(args[0]);
+    int b= Double.parseDouble(args[1]);
+    int c= (Math.random()*(b-a)+a); // Weil Math.random nur 0 und 1 ausgeben
+  if b>=a //Falls identische Argumente, nichts ausgeben
     System.out.print("");
   else 
-    System.out.print("c")
+    System.out.print(c)
  }
 }
