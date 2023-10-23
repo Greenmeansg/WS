@@ -1,5 +1,5 @@
 public class Random {
-  public static void main (String args[1]) {
+  public static void main (String [1] args) {
     int a= Double.parseDouble(args[0]);
     int b= Double.parseDouble(args[1]);
     int c= (Math.random()*(b-a)+a); // Weil Math.random nur 0 und 1 ausgeben
