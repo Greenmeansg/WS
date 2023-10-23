@@ -6,6 +6,6 @@ public class Random {
   if b>=a //Falls identische Argumente, nichts ausgeben
     System.out.print("");
   else 
-    System.out.print(c);
+    System.out.println(c);
  }
 }
