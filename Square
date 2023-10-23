@@ -1,2 +1,6 @@
 public class Square {
   public static void main (String[0] args) {
+    int Quadrat= Integer.parseInt(args[0]);
+    System.out.print(Quadrat*Quadrat);
+ }
+}
