@@ -46,7 +46,7 @@ public class Minesweeper {
             for (int rowNumber = 0; rowNumber < numberOfRows; rowNumber++) {
                 /*
                  F: Welche Bedeutung hat es, wenn im mines-Array ein Eintrag den Wert 1 hat?
-                 A: 
+                 A: Dass es sich nur um ein 1D-Array handelt, es also nur eine Zeile oder Spalte besitzt
                 */
                 if (mines[rowNumber][columnNumber] == 1) {
                     neighborhood[rowNumber][columnNumber] = -1;
@@ -59,7 +59,7 @@ public class Minesweeper {
                         int row = rowNumber + offset[1];
                         /*
                          F: Was würde beim Ausführen des Programms (potentiell) passieren, wenn wir die folgende if-Verzweigung (also Zeile 64 und die Klammer in Zeile 69) entfernen?
-                         A: 
+                         A: Es würde sich nichts verändern, da es sich nur um ein Statement handelt und somit ohne Klammer geschrieben werden kann
                         */
                         if (column >= 0 && column < numberOfColumns && row >= 0 && row < numberOfRows) {
                             // wenn wir eine Mine an der Position haben: hochzählen
